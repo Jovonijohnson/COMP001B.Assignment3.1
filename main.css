@@ -16,7 +16,11 @@ h1, h2, h3 {
 }
 
 aside {
-	
+	/* shifted welcome to widgets top left */
+	max-width: 20%;
+	text-align: left;
+width: 100%;
+float: left;
 }
 
 footer {
@@ -24,6 +28,9 @@ footer {
 }
 
 header {
+text-align: left;
+width: 100%;
+float: left;
 
 }
 
@@ -32,11 +39,14 @@ img {
 }
 
 main {
-
+	max-width: 80%;
+	text-align: left;
+width: 100%;
+float: left;
 }
 
 nav {
-
+width: 30%;
 }
 
 #copyright {
