@@ -24,9 +24,11 @@ aside {
 width: 20%;
 float: left;
 }
-
+/* put my footer to the bottom */
 footer {
 text-align: left;
+clear: both;
+width: 100%;
 }
 
 header {
@@ -60,5 +62,5 @@ nav {
 }
 
 #main-container {
-
+	position: relative
 }
