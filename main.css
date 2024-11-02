@@ -7,8 +7,11 @@
 */
 
 body {
+	/*  added padding and margin */
 	font-size: 16px;
 	font-family: 'Sanchez', serif;
+	padding: 20px;
+    margin: 20px;
 }
 
 h1, h2, h3 {
@@ -17,14 +20,14 @@ h1, h2, h3 {
 
 aside {
 	/* shifted welcome to widgets top left */
-	max-width: 20%;
-	text-align: left;
+	width: 10%;
+    float: left;
 width: 100%;
 float: left;
 }
 
 footer {
-
+text-align: left;
 }
 
 header {
@@ -33,20 +36,22 @@ width: 100%;
 float: left;
 
 }
-
+/* adjusted image */
 img {
-	max-width: 75%;
+	max-width: 100%;
 }
 
 main {
-	max-width: 80%;
+	max-width: 60%;
 	text-align: left;
 width: 100%;
 float: left;
 }
 
 nav {
-width: 30%;
+	text-align: center;
+    width: 20%;
+    float: left;
 }
 
 #copyright {
